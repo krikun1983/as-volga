@@ -1,7 +1,13 @@
+@import 'variables';
+
 /* BASIC */
 
 html {
   font-size: 10px;
+}
+
+body {
+  font-family: $fontsMont-400;
 }
 
 * {

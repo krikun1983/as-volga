@@ -1,7 +1,25 @@
 @import 'basic';
 @import 'logo';
+@import 'variables';
 
 .header {
   height: 11rem;
   background-color: $white;
+
+  &__links {
+    width: 100%;
+  }
+
+  &__heading {
+    width: 100%;
+    max-width: 28rem;
+    color: $blue-black;
+    font-size: 2.4rem;
+    font-family: $fontsMont-800;
+    line-height: 2.8rem;
+  }
+
+  &__contact {
+    font-family: $fontsMont-600;
+  }
 }
